@@ -1,0 +1,31 @@
+my_string = 'Babylon_5'
+my_list = ['B','a','b','y','l','o','n','_','5']
+
+# Previous outputs
+print("3rd to 5th of string:", my_string[3:6])
+print("3rd to 5th of list:  ", my_list[3:6])
+
+print("Start to 4th of string:", my_string[:4])
+print("Start to 4th of list:  ", my_list[:4])
+
+print("6th to end of string:", my_string[6:])
+print("6th to end of list:  ", my_list[6:])
+
+print("Full string:", my_string[:])
+print("Full list:  ", my_list[:])
+
+# 🔹 Challenge Slice 1: 0th to before 4th
+new_list = my_list[0:4]
+print("New list (0th to 4th, not including 4):", new_list)
+
+# 🔹 Challenge Slice 2: -4 to -2
+new_list2 = my_list[-4:-2]
+print("New list2 (-4 to -2):", new_list2)
+
+# 🔸 Replace indexed value
+my_list = ["apple", "orange", "pomegranate"]
+print("Before change:", my_list)
+
+# Change index[1] to 'pineapple'
+my_list[1] = "pineapple"
+print("After change: ", my_list)
